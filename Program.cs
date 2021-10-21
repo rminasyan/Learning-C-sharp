@@ -1,4 +1,4 @@
-﻿namespace C#Project
+﻿namespace C_Project 
 {
     class Program
     {
@@ -10,6 +10,8 @@
             Console.Write("Enter your last name : ");
             lname = Console.ReadLine();
             Console.Write("Your full name is "+fname+" "+lname);
+
+            //Calculator
 
             Console.Write("Enter a number: ");
             double num1 = Convert.ToDouble(Console.ReadLine());
